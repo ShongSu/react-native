@@ -62,7 +62,6 @@ const PERMISSIONS = Object.freeze({
   BLUETOOTH_CONNECT: 'android.permission.BLUETOOTH_CONNECT',
   BLUETOOTH_SCAN: 'android.permission.BLUETOOTH_SCAN',
   BLUETOOTH_ADVERTISE: 'android.permission.BLUETOOTH_ADVERTISE',
-  POST_NOTIFICATIONS: 'android.permission.POST_NOTIFICATIONS'
 });
 
 /**
@@ -101,7 +100,6 @@ class PermissionsAndroid {
     WRITE_CALL_LOG: string,
     WRITE_CONTACTS: string,
     WRITE_EXTERNAL_STORAGE: string,
-    POST_NOTIFICATIONS: string,
   |} = PERMISSIONS;
   RESULTS: {|
     DENIED: $TEMPORARY$string<'denied'>,
